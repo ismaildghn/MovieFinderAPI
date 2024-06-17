@@ -33,6 +33,19 @@ namespace DVDRentalAPI.Persistence
 
 
             services.AddScoped<IActorWriteRepository, ActorWriteRepository>();
+            services.AddScoped<IActorReadRepository, ActorReadRepository>();
+            services.AddScoped<ICategoryWriteRepository, CategoryWriteRepository>();
+            services.AddScoped<ICategoryReadRepository, CategoryReadRepository>();
+            services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
+            services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
+            services.AddScoped<IFilmActorWriteRepository, FilmActorWriteRepository>();
+            services.AddScoped<IFilmActorReadRepository, FilmActorReadRepository>();
+            services.AddScoped<IFilmWriteRepository, FilmWriteRepository>();
+            services.AddScoped<IFilmReadRepository, FilmReadRepository>();
+            services.AddScoped<IFilmCategoryWriteRepository, FilmCategoryWriteRepository>();
+            services.AddScoped<IFilmCategoryReadRepository, FilmCategoryReadRepository>();
+            services.AddScoped<ILanguageWriteRepository, LanguageWriteRepository>();
+            services.AddScoped<ILanguageReadRepository, LanguageReadRepository>();
         }
     }
 }
