@@ -1,0 +1,17 @@
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\bin\Debug\net8.0\DVDRentalAPI.Infrastructure.deps.json
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\bin\Debug\net8.0\DVDRentalAPI.Infrastructure.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\bin\Debug\net8.0\DVDRentalAPI.Infrastructure.pdb
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\bin\Debug\net8.0\DVDRentalAPI.Application.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\bin\Debug\net8.0\DVDRentalAPI.Domain.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\bin\Debug\net8.0\DVDRentalAPI.Application.pdb
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\bin\Debug\net8.0\DVDRentalAPI.Domain.pdb
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\DVDRentalAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\DVDRentalAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\DVDRentalAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\DVDRentalAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\DVDRentalAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\DVDRenta.5CB6AA2B.Up2Date
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\DVDRentalAPI.Infrastructure.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\refint\DVDRentalAPI.Infrastructure.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\DVDRentalAPI.Infrastructure.pdb
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Infrastructure\obj\Debug\net8.0\ref\DVDRentalAPI.Infrastructure.dll

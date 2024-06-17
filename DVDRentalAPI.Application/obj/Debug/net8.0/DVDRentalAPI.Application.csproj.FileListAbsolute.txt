@@ -1,0 +1,15 @@
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\bin\Debug\net8.0\DVDRentalAPI.Application.deps.json
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\bin\Debug\net8.0\DVDRentalAPI.Application.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\bin\Debug\net8.0\DVDRentalAPI.Application.pdb
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\bin\Debug\net8.0\DVDRentalAPI.Domain.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\bin\Debug\net8.0\DVDRentalAPI.Domain.pdb
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRentalAPI.Application.csproj.AssemblyReference.cache
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRentalAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRentalAPI.Application.AssemblyInfoInputs.cache
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRentalAPI.Application.AssemblyInfo.cs
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRentalAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRenta.5A452C3A.Up2Date
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRentalAPI.Application.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\refint\DVDRentalAPI.Application.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRentalAPI.Application.pdb
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\ref\DVDRentalAPI.Application.dll
