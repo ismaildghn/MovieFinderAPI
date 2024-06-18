@@ -124,17 +124,19 @@ namespace DVDRentalAPI.Persistence.Migrations
                 },
                 constraints: table =>
                 {
+                    table.PrimaryKey("PK_UserLogins", x => new { x.LoginProvider, x.ProviderKey });
                 });
 
             migrationBuilder.CreateTable(
                 name: "UserRoles",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "text", nullable: true),
-                    RoleId = table.Column<string>(type: "text", nullable: true)
+                    UserId = table.Column<string>(type: "text", nullable: false),
+                    RoleId = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
+                    table.PrimaryKey("PK_UserRoles", x => new { x.UserId, x.RoleId });
                 });
 
             migrationBuilder.CreateTable(
@@ -167,13 +169,14 @@ namespace DVDRentalAPI.Persistence.Migrations
                 name: "UserTokens",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "text", nullable: true),
+                    UserId = table.Column<string>(type: "text", nullable: false),
                     LoginProvider = table.Column<string>(type: "text", nullable: false),
                     Name = table.Column<string>(type: "text", nullable: false),
                     Value = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
+                    table.PrimaryKey("PK_UserTokens", x => new { x.UserId, x.LoginProvider, x.Name });
                 });
 
             migrationBuilder.CreateTable(
@@ -183,10 +186,10 @@ namespace DVDRentalAPI.Persistence.Migrations
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     Title = table.Column<string>(type: "text", nullable: false),
                     Description = table.Column<string>(type: "text", nullable: false),
+                    LanguageId = table.Column<Guid>(type: "uuid", nullable: false),
                     ReleaseYear = table.Column<int>(type: "integer", nullable: false),
                     Length = table.Column<int>(type: "integer", nullable: false),
                     Rating = table.Column<float>(type: "real", nullable: false),
-                    LanguageId = table.Column<Guid>(type: "uuid", nullable: true),
                     CreatedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     UpdatedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
                 },
@@ -197,7 +200,8 @@ namespace DVDRentalAPI.Persistence.Migrations
                         name: "FK_Films_Languages_LanguageId",
                         column: x => x.LanguageId,
                         principalTable: "Languages",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.SetNull);
                 });
 
             migrationBuilder.CreateTable(

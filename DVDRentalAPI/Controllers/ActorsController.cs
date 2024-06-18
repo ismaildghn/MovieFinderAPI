@@ -1,6 +1,5 @@
 ﻿using DVDRentalAPI.Application.Features.Commands.Actor.CreateActor;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 

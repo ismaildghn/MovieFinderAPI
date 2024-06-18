@@ -11,6 +11,8 @@ namespace DVDRentalAPI.Domain.Entities
     {
         public string Title { get; set; }
         public string Description { get; set; }
+        public Guid LanguageId { get; set; }
+        public Language Language { get; set; }
         public int ReleaseYear { get; set; }
         public int Length { get; set; }
         public float Rating { get; set; }
