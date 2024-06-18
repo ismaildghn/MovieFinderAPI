@@ -17,3 +17,4 @@ C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Persistence\obj\Debug\net8.0\r
 C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Persistence\obj\Debug\net8.0\DVDRentalAPI.Persistence.pdb
 C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Persistence\obj\Debug\net8.0\DVDRentalAPI.Persistence.genruntimeconfig.cache
 C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Persistence\obj\Debug\net8.0\ref\DVDRentalAPI.Persistence.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Persistence\obj\Debug\net8.0\DVDRentalAPI.Persistence.sourcelink.json

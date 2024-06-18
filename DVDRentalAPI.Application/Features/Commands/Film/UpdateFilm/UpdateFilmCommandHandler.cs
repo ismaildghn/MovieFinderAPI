@@ -1,5 +1,6 @@
 ﻿using DVDRentalAPI.Application.Repositories;
 using MediatR;
+using F = DVDRentalAPI.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,9 +20,20 @@ namespace DVDRentalAPI.Application.Features.Commands.Film.UpdateFilm
             _filmWriteRepository = filmWriteRepository;
         }
 
-        public Task<UpdateFilmCommandResponse> Handle(UpdateFilmCommandRequest request, CancellationToken cancellationToken)
+        public async Task<UpdateFilmCommandResponse> Handle(UpdateFilmCommandRequest request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            F.Film film = await _filmReadRepository.GetByIdAsync(request.Id);
+
+            film.Title = request.Title;
+            film.Description = request.Description;
+            film.ReleaseYear = request.ReleaseYear;
+            film.Length = request.Length;
+            film.Rating = request.Rating;
+            film.UpdatedDate = DateTime.UtcNow;
+            await _filmWriteRepository.SaveAsync();
+
+            return new();
+                      
         }
     }
 }

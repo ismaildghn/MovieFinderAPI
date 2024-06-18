@@ -53,6 +53,12 @@ namespace DVDRentalAPI.Persistence.Context
                 .WithMany(a => a.FilmActor)
                 .HasForeignKey(fa => fa.ActorId);
 
+            builder.Entity<Film>()
+                .HasOne(f => f.Language)
+                .WithMany(l => l.Film)
+                .HasForeignKey(f => f.LanguageId)
+                .OnDelete(DeleteBehavior.SetNull);
+
             builder.Entity<IdentityUserLogin<string>>()
         .HasKey(login => new { login.LoginProvider, login.ProviderKey });
 

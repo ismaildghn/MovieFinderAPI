@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DVDRentalAPI.Application.Features.Commands.Film.RemoveFilm
 {
-    internal class RemoveFilmComandResponse
+    public class RemoveFilmComandResponse
     {
     }
 }

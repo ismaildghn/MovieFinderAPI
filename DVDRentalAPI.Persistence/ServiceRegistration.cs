@@ -1,7 +1,9 @@
-﻿using DVDRentalAPI.Application.Repositories;
+﻿using DVDRentalAPI.Application.Abstractions.Services;
+using DVDRentalAPI.Application.Repositories;
 using DVDRentalAPI.Domain.Entities.Identity;
 using DVDRentalAPI.Persistence.Context;
 using DVDRentalAPI.Persistence.Repositories;
+using DVDRentalAPI.Persistence.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -46,6 +48,10 @@ namespace DVDRentalAPI.Persistence
             services.AddScoped<IFilmCategoryReadRepository, FilmCategoryReadRepository>();
             services.AddScoped<ILanguageWriteRepository, LanguageWriteRepository>();
             services.AddScoped<ILanguageReadRepository, LanguageReadRepository>();
+
+
+            services.AddScoped<IFilmActorService, FilmActorService>();
+            
         }
     }
 }

@@ -21,7 +21,8 @@ namespace DVDRentalAPI.Application.Features.Commands.Actor.CreateActor
         {
             await _actorWriteRepository.AddAsync(new()
             {
-                NameSurname = request.NameSurname
+                NameSurname = request.NameSurname,
+                CreatedDate = DateTime.UtcNow,
             });
             await _actorWriteRepository.SaveAsync();
             return new();

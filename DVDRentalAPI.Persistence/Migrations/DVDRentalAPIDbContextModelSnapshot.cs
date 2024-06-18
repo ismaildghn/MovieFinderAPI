@@ -102,7 +102,7 @@ namespace DVDRentalAPI.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid?>("LanguageId")
+                    b.Property<Guid>("LanguageId")
                         .HasColumnType("uuid");
 
                     b.Property<int>("Length")
@@ -369,9 +369,13 @@ namespace DVDRentalAPI.Persistence.Migrations
 
             modelBuilder.Entity("DVDRentalAPI.Domain.Entities.Film", b =>
                 {
-                    b.HasOne("DVDRentalAPI.Domain.Entities.Language", null)
+                    b.HasOne("DVDRentalAPI.Domain.Entities.Language", "Language")
                         .WithMany("Film")
-                        .HasForeignKey("LanguageId");
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.SetNull)
+                        .IsRequired();
+
+                    b.Navigation("Language");
                 });
 
             modelBuilder.Entity("DVDRentalAPI.Domain.Entities.FilmActor", b =>

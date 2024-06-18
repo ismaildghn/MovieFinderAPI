@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DVDRentalAPI.Persistence.Migrations
 {
     [DbContext(typeof(DVDRentalAPIDbContext))]
-    [Migration("20240617105224_mig_1")]
+    [Migration("20240618165547_mig_1")]
     partial class mig_1
     {
         /// <inheritdoc />
@@ -105,7 +105,7 @@ namespace DVDRentalAPI.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid?>("LanguageId")
+                    b.Property<Guid>("LanguageId")
                         .HasColumnType("uuid");
 
                     b.Property<int>("Length")
@@ -322,57 +322,63 @@ namespace DVDRentalAPI.Persistence.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ProviderKey")
                         .HasColumnType("text");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("text");
 
-                    b.Property<string>("ProviderKey")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("UserId")
                         .HasColumnType("text");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
 
                     b.ToTable("UserLogins");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
+                    b.Property<string>("UserId")
+                        .HasColumnType("text");
+
                     b.Property<string>("RoleId")
                         .HasColumnType("text");
 
-                    b.Property<string>("UserId")
-                        .HasColumnType("text");
+                    b.HasKey("UserId", "RoleId");
 
                     b.ToTable("UserRoles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
+                    b.Property<string>("UserId")
+                        .HasColumnType("text");
+
                     b.Property<string>("LoginProvider")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("UserId")
                         .HasColumnType("text");
 
                     b.Property<string>("Value")
                         .HasColumnType("text");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("UserTokens");
                 });
 
             modelBuilder.Entity("DVDRentalAPI.Domain.Entities.Film", b =>
                 {
-                    b.HasOne("DVDRentalAPI.Domain.Entities.Language", null)
+                    b.HasOne("DVDRentalAPI.Domain.Entities.Language", "Language")
                         .WithMany("Film")
-                        .HasForeignKey("LanguageId");
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.SetNull)
+                        .IsRequired();
+
+                    b.Navigation("Language");
                 });
 
             modelBuilder.Entity("DVDRentalAPI.Domain.Entities.FilmActor", b =>

@@ -13,3 +13,4 @@ C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\D
 C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\refint\DVDRentalAPI.Application.dll
 C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRentalAPI.Application.pdb
 C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\ref\DVDRentalAPI.Application.dll
+C:\Users\a\source\repos\DVDRentalAPI\DVDRentalAPI.Application\obj\Debug\net8.0\DVDRentalAPI.Application.sourcelink.json

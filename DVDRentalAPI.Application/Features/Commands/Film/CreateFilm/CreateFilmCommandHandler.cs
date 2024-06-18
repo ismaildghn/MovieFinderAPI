@@ -25,7 +25,9 @@ namespace DVDRentalAPI.Application.Features.Commands.Film.CreateFilm
                 Description = request.Description,
                 ReleaseYear = request.ReleaseYear,
                 Length = request.Length,
-                Rating = request.Rating
+                Rating = request.Rating,      
+                LanguageId = request.LanguageId,
+                CreatedDate = DateTime.UtcNow,
             });
             await _filmWriteRepository.SaveAsync();
             return new();
