@@ -15,5 +15,6 @@ namespace DVDRentalAPI.Application.Features.Commands.Film.UpdateFilm
         public int ReleaseYear { get; set; }
         public int Length { get; set; }
         public float Rating { get; set; }
+        public string LanguageId { get; set; }
     }
 }
