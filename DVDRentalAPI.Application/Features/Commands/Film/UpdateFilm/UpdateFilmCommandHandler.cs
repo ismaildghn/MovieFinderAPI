@@ -29,6 +29,7 @@ namespace DVDRentalAPI.Application.Features.Commands.Film.UpdateFilm
             film.ReleaseYear = request.ReleaseYear;
             film.Length = request.Length;
             film.Rating = request.Rating;
+            film.LanguageId = Guid.Parse(request.LanguageId);
             film.UpdatedDate = DateTime.UtcNow;
             await _filmWriteRepository.SaveAsync();
 

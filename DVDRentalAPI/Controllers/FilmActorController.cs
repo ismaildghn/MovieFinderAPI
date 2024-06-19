@@ -26,14 +26,14 @@ namespace DVDRentalAPI.Controllers
             return Ok(response);
         }
 
-        [HttpGet("actorsByFilm")]
+        [HttpGet("[action]")]
         public async Task<IActionResult> GetActorsByFilm(GetActorsByFilmQueryRequest getActorsByFilmQueryRequest)
         {
             GetActorsByFilmQueryResponse response = await _mediator.Send(getActorsByFilmQueryRequest);
             return Ok(response);
         }
 
-        [HttpGet("filmsByActor")]
+        [HttpGet("[action]")]
         public async Task<IActionResult> GetFilmsByActor(GetFilmsByActorQueryRequest getFilmsByActorQueryRequest)
         {
             GetFilmsByActorQueryResponse response = await _mediator.Send(getFilmsByActorQueryRequest);

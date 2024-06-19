@@ -18,5 +18,7 @@ builder.Services.AddDbContext<DVDRentalAPIDbContext>(options =>
 var app = builder.Build();
 
 app.MapControllers();
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.Run();
