@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DVDRentalAPI.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72940c283276532b9b36f5a2c3df4b44e8d3fa20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e3b20be7c962f89eb2466c18e0f654ea8b7b87b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DVDRentalAPI.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DVDRentalAPI.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

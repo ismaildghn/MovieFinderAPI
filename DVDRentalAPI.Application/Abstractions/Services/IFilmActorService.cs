@@ -10,7 +10,7 @@ namespace DVDRentalAPI.Application.Abstractions.Services
 {
     public interface IFilmActorService
     {
-        public Task AddFilmActorAsync(VM_Create_FilmActor film);
+        public Task AddFilmActorAsync(VM_Create_FilmActor filmActor);
         Task<List<Film>> GetFilmsByActorAsync(string actorId);
         Task<List<Actor>> GetActorsByFilmAsync(string filmId);
     }
