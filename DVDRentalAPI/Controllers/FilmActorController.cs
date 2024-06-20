@@ -23,7 +23,7 @@ namespace DVDRentalAPI.Controllers
         public async Task<IActionResult> AddFilmActor(AddFilmActorCommandRequest addFilmActorCommandRequest)
         {
             AddFilmActorCommandResponse response = await _mediator.Send(addFilmActorCommandRequest);
-            return Ok(response);
+            return Ok();
         }
 
         [HttpGet("[action]")]
