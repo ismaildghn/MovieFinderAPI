@@ -52,6 +52,8 @@ namespace DVDRentalAPI.Persistence
 
             services.AddScoped<IFilmActorService, FilmActorService>();
             services.AddScoped<IFilmCategoryService, FilmCategoryService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IUserService, UserService>();
             
         }
     }
