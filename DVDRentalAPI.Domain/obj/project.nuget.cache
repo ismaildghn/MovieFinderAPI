@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ODY/kbbAD23N//lpS/KrA3X/SC2Lav6xRlEQvIXg43Xh8JmwazyfZdS3QU++QHoEN1UPr7d3uI8+hX6mn7mi0A==",
+  "dgSpecHash": "WSsDVTInm0VhstlpjDUbk58gMQqVfyCQa3BhP3bWRbIfPjZc6L1+Y2gfylxLkPWN4ZhW12k8o0BOuVGHxSjKbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Domain\\DVDRentalAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Domain\\MovieFinderAPI.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\a\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -11,7 +11,7 @@ namespace DVDRentalAPI.Persistence.Repositories
 {
     public class CategoryWriteRepository : WriteRepository<Category>, ICategoryWriteRepository
     {
-        public CategoryWriteRepository(DVDRentalAPIDbContext context) : base(context)
+        public CategoryWriteRepository(MovieFinderAPIDbContext context) : base(context)
         {
         }
     }

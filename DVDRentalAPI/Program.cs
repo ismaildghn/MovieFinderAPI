@@ -18,7 +18,7 @@ builder.Services.AddInfrastructureServices();
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<DVDRentalAPIDbContext>(options =>
+builder.Services.AddDbContext<MovieFinderAPIDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSQL")));
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

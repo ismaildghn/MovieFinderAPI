@@ -1900,9 +1900,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Domain\\DVDRentalAPI.Domain.csproj",
-      "projectName": "DVDRentalAPI.Domain",
-      "projectPath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Domain\\DVDRentalAPI.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Domain\\MovieFinderAPI.Domain.csproj",
+      "projectName": "MovieFinderAPI.Domain",
+      "projectPath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Domain\\MovieFinderAPI.Domain.csproj",
       "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Domain\\obj\\",
       "projectStyle": "PackageReference",

@@ -11,7 +11,7 @@ namespace DVDRentalAPI.Persistence.Repositories
 {
     public class LanguageWriteRepository : WriteRepository<Language>, ILanguageWriteRepository
     {
-        public LanguageWriteRepository(DVDRentalAPIDbContext context) : base(context)
+        public LanguageWriteRepository(MovieFinderAPIDbContext context) : base(context)
         {
         }
     }

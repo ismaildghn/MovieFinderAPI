@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qGz5yUBOGy/QZsxbhw82R3osmn3IgilJenqiI2upg8TRW6zhL+rRua25kL9/Mw+GZIsm3G8ExrjK/GLtz1Ihdw==",
+  "dgSpecHash": "OeexogXETj8OrTN2/EN4VZjQIKF4YucUiQ2MWvyGGKSjO80eHD6y8XjJh/QcFYE7HXdt0ulwrUwxSavFFpDQZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Infrastructure\\DVDRentalAPI.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Infrastructure\\MovieFinderAPI.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\a\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

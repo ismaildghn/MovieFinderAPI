@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DVDRentalAPI.Application\DVDRentalAPI.Application.csproj" />
+    <ProjectReference Include="..\DVDRentalAPI.Application\MovieFinderAPI.Application.csproj" />
   </ItemGroup>
 
 </Project>

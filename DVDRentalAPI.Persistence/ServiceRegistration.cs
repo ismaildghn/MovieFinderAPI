@@ -20,7 +20,7 @@ namespace DVDRentalAPI.Persistence
 
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddDbContext<DVDRentalAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));
+            services.AddDbContext<MovieFinderAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));
            
 
 
@@ -31,7 +31,7 @@ namespace DVDRentalAPI.Persistence
                 options.Password.RequireDigit = false;
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
-            }).AddEntityFrameworkStores<DVDRentalAPIDbContext>();
+            }).AddEntityFrameworkStores<MovieFinderAPIDbContext>();
 
 
             services.AddScoped<IActorWriteRepository, ActorWriteRepository>();

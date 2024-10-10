@@ -12,9 +12,9 @@ namespace DVDRentalAPI.Persistence.Repositories
 {
     public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity
     {
-        readonly DVDRentalAPIDbContext _context;
+        readonly MovieFinderAPIDbContext _context;
 
-        public ReadRepository(DVDRentalAPIDbContext context)
+        public ReadRepository(MovieFinderAPIDbContext context)
         {
             _context = context;
         }

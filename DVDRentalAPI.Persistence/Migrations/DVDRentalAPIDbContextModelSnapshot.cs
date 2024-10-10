@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace DVDRentalAPI.Persistence.Migrations
 {
-    [DbContext(typeof(DVDRentalAPIDbContext))]
+    [DbContext(typeof(MovieFinderAPIDbContext))]
     partial class DVDRentalAPIDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

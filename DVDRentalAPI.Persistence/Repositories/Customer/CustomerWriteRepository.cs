@@ -11,7 +11,7 @@ namespace DVDRentalAPI.Persistence.Repositories
 {
     public class CustomerWriteRepository : WriteRepository<Customer>, ICustomerWriteRepository
     {
-        public CustomerWriteRepository(DVDRentalAPIDbContext context) : base(context)
+        public CustomerWriteRepository(MovieFinderAPIDbContext context) : base(context)
         {
         }
     }
