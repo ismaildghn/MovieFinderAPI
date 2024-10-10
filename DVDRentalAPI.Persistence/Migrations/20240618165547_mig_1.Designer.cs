@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace DVDRentalAPI.Persistence.Migrations
 {
-    [DbContext(typeof(DVDRentalAPIDbContext))]
+    [DbContext(typeof(MovieFinderAPIDbContext))]
     [Migration("20240618165547_mig_1")]
     partial class mig_1
     {

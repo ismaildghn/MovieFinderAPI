@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VU8FkfihnUD/2XTKNgaxYQltYLVPbyJKZocswhfn6zdf+yjt6/ayR2vpYqASg7gaijMFeLY3WsmDa8dgNL8SrA==",
+  "dgSpecHash": "mViE2pA/6IWpWc186NqYfIDoAkCKZD0Ti6zgfXj132z1HlC10/+hr1TfPm/YUD5r2ztANieQtsjXLQbXq3lrrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Persistence\\DVDRentalAPI.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Persistence\\MovieFinderAPI.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\a\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",

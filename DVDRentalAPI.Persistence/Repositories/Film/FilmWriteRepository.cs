@@ -11,7 +11,7 @@ namespace DVDRentalAPI.Persistence.Repositories
 {
     public class FilmWriteRepository : WriteRepository<Film>, IFilmWriteRepository
     {
-        public FilmWriteRepository(DVDRentalAPIDbContext context) : base(context)
+        public FilmWriteRepository(MovieFinderAPIDbContext context) : base(context)
         {
         }
     }

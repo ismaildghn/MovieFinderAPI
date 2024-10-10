@@ -13,9 +13,9 @@ namespace DVDRentalAPI.Persistence.Repositories
 {
     public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity
     {
-        readonly DVDRentalAPIDbContext _context;
+        readonly MovieFinderAPIDbContext _context;
 
-        public WriteRepository(DVDRentalAPIDbContext context)
+        public WriteRepository(MovieFinderAPIDbContext context)
         {
             _context = context;
         }

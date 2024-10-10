@@ -11,7 +11,7 @@ namespace DVDRentalAPI.Persistence.Repositories
 {
     public class LanguageReadRepository : ReadRepository<Language>, ILanguageReadRepository
     {
-        public LanguageReadRepository(DVDRentalAPIDbContext context) : base(context)
+        public LanguageReadRepository(MovieFinderAPIDbContext context) : base(context)
         {
         }
     }

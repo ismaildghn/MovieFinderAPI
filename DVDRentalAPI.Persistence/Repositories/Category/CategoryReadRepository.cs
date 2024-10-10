@@ -11,7 +11,7 @@ namespace DVDRentalAPI.Persistence.Repositories
 {
     public class CategoryReadRepository : ReadRepository<Category>, ICategoryReadRepository
     {
-        public CategoryReadRepository(DVDRentalAPIDbContext context) : base(context)
+        public CategoryReadRepository(MovieFinderAPIDbContext context) : base(context)
         {
         }
     }

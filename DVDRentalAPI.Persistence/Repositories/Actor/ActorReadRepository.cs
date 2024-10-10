@@ -11,7 +11,7 @@ namespace DVDRentalAPI.Persistence.Repositories
 {
     public class ActorReadRepository : ReadRepository<Actor>, IActorReadRepository
     {
-        public ActorReadRepository(DVDRentalAPIDbContext context) : base(context)
+        public ActorReadRepository(MovieFinderAPIDbContext context) : base(context)
         {
         }
     }

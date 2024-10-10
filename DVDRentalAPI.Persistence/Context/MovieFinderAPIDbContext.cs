@@ -13,10 +13,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DVDRentalAPI.Persistence.Context
 {
-    public class DVDRentalAPIDbContext : IdentityDbContext<AppUser, AppRole, string>
+    public class MovieFinderAPIDbContext : IdentityDbContext<AppUser, AppRole, string>
     {
 
-        public DVDRentalAPIDbContext(DbContextOptions options) : base(options) { }
+        public MovieFinderAPIDbContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Actor> Actors { get; set; }
         public DbSet<Category> Categories { get; set; }

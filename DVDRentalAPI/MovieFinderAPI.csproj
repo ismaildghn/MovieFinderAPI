@@ -21,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DVDRentalAPI.Application\DVDRentalAPI.Application.csproj" />
-    <ProjectReference Include="..\DVDRentalAPI.Infrastructure\DVDRentalAPI.Infrastructure.csproj" />
-    <ProjectReference Include="..\DVDRentalAPI.Persistence\DVDRentalAPI.Persistence.csproj" />
+    <ProjectReference Include="..\DVDRentalAPI.Application\MovieFinderAPI.Application.csproj" />
+    <ProjectReference Include="..\DVDRentalAPI.Infrastructure\MovieFinderAPI.Infrastructure.csproj" />
+    <ProjectReference Include="..\DVDRentalAPI.Persistence\MovieFinderAPI.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

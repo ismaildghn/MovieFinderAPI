@@ -994,22 +994,22 @@
           }
         }
       },
-      "DVDRentalAPI.Application/1.0.0": {
+      "MovieFinderAPI.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DVDRentalAPI.Domain": "1.0.0",
           "MediatR": "11.1.0",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0"
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+          "MovieFinderAPI.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DVDRentalAPI.Application.dll": {}
+          "bin/placeholder/MovieFinderAPI.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DVDRentalAPI.Application.dll": {}
+          "bin/placeholder/MovieFinderAPI.Application.dll": {}
         }
       },
-      "DVDRentalAPI.Domain/1.0.0": {
+      "MovieFinderAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1017,10 +1017,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.6"
         },
         "compile": {
-          "bin/placeholder/DVDRentalAPI.Domain.dll": {}
+          "bin/placeholder/MovieFinderAPI.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DVDRentalAPI.Domain.dll": {}
+          "bin/placeholder/MovieFinderAPI.Domain.dll": {}
         }
       }
     }
@@ -2308,21 +2308,21 @@
         "version.txt"
       ]
     },
-    "DVDRentalAPI.Application/1.0.0": {
+    "MovieFinderAPI.Application/1.0.0": {
       "type": "project",
-      "path": "../DVDRentalAPI.Application/DVDRentalAPI.Application.csproj",
-      "msbuildProject": "../DVDRentalAPI.Application/DVDRentalAPI.Application.csproj"
+      "path": "../DVDRentalAPI.Application/MovieFinderAPI.Application.csproj",
+      "msbuildProject": "../DVDRentalAPI.Application/MovieFinderAPI.Application.csproj"
     },
-    "DVDRentalAPI.Domain/1.0.0": {
+    "MovieFinderAPI.Domain/1.0.0": {
       "type": "project",
-      "path": "../DVDRentalAPI.Domain/DVDRentalAPI.Domain.csproj",
-      "msbuildProject": "../DVDRentalAPI.Domain/DVDRentalAPI.Domain.csproj"
+      "path": "../DVDRentalAPI.Domain/MovieFinderAPI.Domain.csproj",
+      "msbuildProject": "../DVDRentalAPI.Domain/MovieFinderAPI.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DVDRentalAPI.Application >= 1.0.0",
-      "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.6"
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.6",
+      "MovieFinderAPI.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2331,9 +2331,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Infrastructure\\DVDRentalAPI.Infrastructure.csproj",
-      "projectName": "DVDRentalAPI.Infrastructure",
-      "projectPath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Infrastructure\\DVDRentalAPI.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Infrastructure\\MovieFinderAPI.Infrastructure.csproj",
+      "projectName": "MovieFinderAPI.Infrastructure",
+      "projectPath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Infrastructure\\MovieFinderAPI.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
@@ -2352,8 +2352,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Application\\DVDRentalAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Application\\DVDRentalAPI.Application.csproj"
+            "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Application\\MovieFinderAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\a\\source\\repos\\DVDRentalAPI\\DVDRentalAPI.Application\\MovieFinderAPI.Application.csproj"
             }
           }
         }
