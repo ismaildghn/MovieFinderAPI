@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieFinderAPI.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67be63196a2c9a92f3183eb13647a3906ef8cd2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ff81245fb997346baf95a78bf58ef0fae53e79c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieFinderAPI.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieFinderAPI.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
